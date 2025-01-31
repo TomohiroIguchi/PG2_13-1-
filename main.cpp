@@ -57,7 +57,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 				sqrtf(powf(enemyA->center_.x - player->bullet_->pos_.x, 2.0f) + powf(enemyA->center_.y - player->bullet_->pos_.y, 2.0f)) ||
 				enemyB->radius_ + player->bullet_->radius_ >=
 				sqrtf(powf(enemyB->center_.x - player->bullet_->pos_.x, 2.0f) + powf(enemyB->center_.y - player->bullet_->pos_.y, 2.0f))) {
-				Novice::DrawBox(0, 0, 1280, 720, 0.0f, BLACK, kFillModeSolid);
 				Enemy::isALive_ = false;
 				bullet->isShot_ = false;
 			}
