@@ -41,6 +41,12 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -115,5 +121,7 @@
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\PG2_メンバ変数と構造体\Enemy.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
 </Project>
